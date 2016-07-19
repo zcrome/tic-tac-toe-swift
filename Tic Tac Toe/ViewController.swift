@@ -9,6 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    
+    @IBAction func playerTurnButton(sender: AnyObject) {
+        
+        sender.setImage(UIImage(named:"nought.png"), forState: .Normal)
+        
+    }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
