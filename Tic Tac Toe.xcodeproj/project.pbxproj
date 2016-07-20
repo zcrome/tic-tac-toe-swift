@@ -15,6 +15,7 @@
 		D29743BA1D3DD68400BF6C48 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = D29743B71D3DD68400BF6C48 /* board.png */; };
 		D29743BB1D3DD68400BF6C48 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = D29743B81D3DD68400BF6C48 /* cross.png */; };
 		D29743BC1D3DD68400BF6C48 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = D29743B91D3DD68400BF6C48 /* nought.png */; };
+		D29743BE1D3DE61B00BF6C48 /* TicTac.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29743BD1D3DE61B00BF6C48 /* TicTac.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D29743B71D3DD68400BF6C48 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
 		D29743B81D3DD68400BF6C48 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		D29743B91D3DD68400BF6C48 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		D29743BD1D3DE61B00BF6C48 /* TicTac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicTac.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				D29743AC1D3DD15900BF6C48 /* Assets.xcassets */,
 				D29743AE1D3DD15900BF6C48 /* LaunchScreen.storyboard */,
 				D29743B11D3DD15900BF6C48 /* Info.plist */,
+				D29743BD1D3DE61B00BF6C48 /* TicTac.swift */,
 			);
 			path = "Tic Tac Toe";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D29743A81D3DD15900BF6C48 /* ViewController.swift in Sources */,
+				D29743BE1D3DE61B00BF6C48 /* TicTac.swift in Sources */,
 				D29743A61D3DD15900BF6C48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
